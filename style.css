@@ -1,0 +1,128 @@
+*{
+    font-family: inter, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header{
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 90px;
+    border-style: none;
+    background-color: #F3F5FC;
+    outline: none;
+}
+
+.conteiner{
+    background-color: white;
+    display: flex;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 24px 24px;
+    box-shadow: 0px 24px 32px -8px;
+    
+}
+
+.mensagem{
+    background-color:white;
+    background-image: url("garoto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: none;
+    outline: none;
+    border-radius: 24px;
+    margin-left: 10px;
+}
+
+.h3{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 800;
+    color: darkblue;
+}
+.pTexto{
+    font-size: 12px;
+    padding: 0 0 ;
+}
+
+.copiar{
+    border-radius: 24px;
+    padding: 0px 24px;
+    border: 1px solid darkblue;
+    color: darkblue;
+    font-size: 20px;
+    width: 90%;
+    transition: 0.5s;
+
+}
+.copiar:hover{
+    background-color: darkblue;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.encriptar{
+    background-color: darkblue;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.encriptar:hover{
+    background-color:white;
+    color: darkblue;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.desencriptar{
+    padding: 10px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: 1px solid darkblue;
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.desencriptar:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+    outline: none;
+}
+
+.informacao{
+    font-size: 12px;
+
+}
