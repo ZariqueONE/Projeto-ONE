@@ -11,46 +11,57 @@
 </head>
 
  <body>
-   <header>
-       <img src="Vector.png" alt="Logo da Alura com a letra A inical">
+   <header class="header">
+      
+    <div class="logo"> 
+         <img src="Vector.png" alt="Logo da Alura com a letra A inical">
+      </div>
+
    </header>
    
-    <main class="main">
-
-        <section>
-            <textarea class="input-texto" cols="40" rows="6" placeholder="digite seu texto"></textarea>
-            <div>
-                <h6 class="informacao">Apenas letras maiúsculas e minúsculas</h6>
-            </div>
-    
-            <div class="botoes">
-                <button class="encriptar" onclick="btnEncriptar()">
-                    Criptografar
-                </button>
-    
-                <button class="desencriptar" onclick="btnDesencriptar()">
-                    Descriptografar
-                </button>
-
-            
-                
-            </div>
-        </section>
-
+    <main class="conteiner">
         
+        <div class="input">
+             <textarea class="input-texto" cols="40" rows="7" placeholder="Digite seu texto aqui..."></textarea>
+        </div>
 
-        <section class="conteiner">
-                <textarea class="mensagem" cols="18" rows="8"></textarea>
-                <div class="h3">Nenhum texto encontrado</div>
-                <div class="pTexto">Digite o texto que será criptografado/descriptografado</div>
-                <button class="copiar" onclick="btnCopiar()">Copiar</button>
-              
-           
-            </div>
+        <div class="informaçoes">
+            Apenas letras minúsculas e maiúsculas 
+        </div>
 
-        </section>
+        <div class="botoes">
+            <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
 
     </main>
+
+    <section class="section">
+
+        <div class="retangulo2">
+            <textarea class= "mensagem" cols="15" rows="7"></textarea>
+                <div class="sumir" id="sumir">
+                    <div class="texto1">Nenhum texto encontrado</div>
+                    <div class="texto2">Digite o texto que será encriptado/desencriptado</div>
+                 </div>
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="rodape">
+        
+        <div class="contato">
+            contato
+        </div>
+        <div class="midias">
+            <a href="https://github.com/ZariqueONE"><img class="git" src="logoGitHub.png"  width="50" height="50" alt="LogoGitHub"></a>
+            <a href="https://www.linkedin.com/in/pablo-souza-148422184/"><img class="linkd" src="logoLinkedin.png" width="50" height="50" alt="LogoLinkedin"></a>
+        </div>    
+        <div class="direitos">Todos direitos reservados</div>
+        </div>
+    </footer>
        
 <script src="java script.js"></script>
  </body>

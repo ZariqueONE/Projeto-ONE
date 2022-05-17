@@ -1,128 +1,146 @@
 *{
-    font-family: inter, sans-serif;
+    font-family:  inter, sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
 }
 
-header{
-    margin: 10px 10px;
-    display: inline-block;
-}
-
 body{
-    background-color: #F3F5FC;
+    background-color:#F3F5FC; ;
 }
 
-.main{
+.logo{
     display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
-}
-
-.input-texto{
-    margin-top: 90px;
-    border-style: none;
-    background-color: #F3F5FC;
-    outline: none;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteiner{
-    background-color: white;
     display: flex;
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: center;
-    justify-content: center;
-    border-radius: 24px 24px;
-    box-shadow: 0px 24px 32px -8px;
-    
-}
-
-.mensagem{
-    background-color:white;
-    background-image: url("garoto.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    border-style: none;
-    outline: none;
-    border-radius: 24px;
-    margin-left: 10px;
-}
-
-.h3{
-    font-size: 18px;
-    padding: 10px;
-    font-weight: 800;
-    color: darkblue;
-}
-.pTexto{
-    font-size: 12px;
-    padding: 0 0 ;
-}
-
-.copiar{
-    border-radius: 24px;
-    padding: 0px 24px;
-    border: 1px solid darkblue;
-    color: darkblue;
-    font-size: 20px;
-    width: 90%;
-    transition: 0.5s;
+    margin-left: 20px;
 
 }
-.copiar:hover{
-    background-color: darkblue;
-    border-color: white;
-    color: white;
-    font-size: 20px;
-    transition: 0.5s;
+
+.input-texto{
+  border-style: none;
+  outline: none;
+  border-radius: 24px;
+  background-color: #F3F5FC;
+
 }
+.informaçoes{
+    padding: 20px 20px;
+    font-size: 16px;
 
-
+}
 
 .botoes{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    margin-top: 20px;
-    padding: 20px;
+    margin: 20px 0 0px 10px;
+   
+
     
 }
-
 .encriptar{
-    background-color: darkblue;
-    color: white;
-    border-radius: 24px;
+    background-color: white;
+    margin-right: 10px;
     font-size: 16px;
-    transition: 0.5s;
-}
-
-.encriptar:hover{
-    background-color:white;
+    border-radius: 24px;
+    border: 1px solid darkblue;
+    padding: 10px;
     color: darkblue;
-    transition: 0.5s;
-    font-size: 20px;
 }
 
 .desencriptar{
-    padding: 10px 10px;
-    margin-left: 10px;
+    background-color:darkblue;
+    margin-right: 10px;
     font-size: 16px;
-    border: 1px solid darkblue;
     border-radius: 24px;
-    transition: 0.5s;
-}
-
-.desencriptar:hover{
-    background-color: darkblue;
+    border: 1px solid darkblue;
+    padding: 10px;
     color: white;
-    transition: 0.5s;
-    font-size: 20px;
+}
+
+.section{
+    position:absolute;
+    display: inline-block;
+    margin: 0 0 0 150px;
+    text-align: center;
+}
+
+.mensagem{
+    position:relative;
+    display: flex;
+    display: inline-block;
+    border-style: none;
     outline: none;
+    border-radius: 32px;
+    background-image: url("garoto.png");
+    background-repeat: none;
+    background-position: center;  
+    box-shadow:  0 24px 32px -10px; 
 }
 
-.informacao{
-    font-size: 12px;
+.texto1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.texto2{
+    position: relative;
+    justify-content: center;
+  
+    font-size: 10px;
+    display:flex;
+
+    padding: 0 0;
+}
+
+
+
+
+.copiar{
+    position: relative;
+    font-size: 20px;
+    background-color: white;
+    color: darkblue;
+    border-radius: 24px;
+    border: 1px solid darkblue;
+    padding: 0px 20px;
+    
+    
+}
+
+.footer{
+    display: flex;
+    margin-top: 30px;
+    background-color: #F3F5FC;
+    justify-content: center;
+    align-items: center;
 
 }
+.rodape{
+    display: inline-block;
+}
+
+.contato{
+    display: block;
+    color: darkblue;
+}
+
+.midias{
+ display: block;
+}
+.direitos{
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+}
+    
+

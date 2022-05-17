@@ -7,6 +7,8 @@ function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value);
     mensagem.value = textoEncriptado;
     mensagem.style.backgroundImage="none";
+    let sumir = document.getElementById("sumir");
+    sumir.innerText="CRIPTOGRAFADO";
 
 
 }
@@ -15,6 +17,7 @@ function btnDesencriptar() {
     const textoDesencriptar = desencriptar(inputTexto.value);
     mensagem.value = textoDesencriptar;
     mensagem.style.backgroundImage="none";
+    sumir.innerText="DESCRIPTOGRAFADO";
 }
 
  function btnCopiar(){
@@ -22,6 +25,7 @@ function btnDesencriptar() {
      copiarTexto.select();
      document.execCommand("cut");
     inputTexto.value = "";
+    sumir.innerText = "COPIADO";
 
     
 }
@@ -29,7 +33,7 @@ function btnDesencriptar() {
 
 
 function encriptar(textoParaEncriptar) { 
-    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "orber"], ["u", "ufat"]  ]
+    let matrizCodigo = [ ["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "orber"], ["u", "ufat"]  ]
     textoParaEncriptar = textoParaEncriptar.toLowerCase();
 
 
